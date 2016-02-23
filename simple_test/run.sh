@@ -1,5 +1,5 @@
 mpirun -n 4 ../../salvus/salvus \
-    --duration 0.01 \
+    --duration 2.00 \
     --time_step 1E-3 \
     --exodus_file_name salvus_test_mesh.ex2 \
     --exodus_model_file_name salvus_test_mesh.ex2 \
@@ -14,4 +14,4 @@ mpirun -n 4 ../../salvus/salvus \
     --ricker_amplitude 1.0 \
     --ricker_time_delay 0.1 \
     --ricker_center_freq 10.0 \
-    --output_movie_file_name movie.h5
+    --output_movie_file_name movie_acoustic.h5
