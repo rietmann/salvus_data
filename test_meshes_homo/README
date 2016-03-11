@@ -1,0 +1,3 @@
+models in this folder where constructed with these commands:
+
+python -m pymesher.mesh  --verbose --plot -m <model_name>.bm -p <period>

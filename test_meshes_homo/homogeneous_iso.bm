@@ -1,0 +1,8 @@
+# Input file for AXISEM created from prem_ani model on 17/12/2015, at 15h 54min
+NAME         homogeneous_iso
+ANELASTIC       F
+ANISOTROPIC     F
+UNITS        m
+COLUMNS       depth      rho      vp      vs
+                  0.  2600.0  5800.0  3200.0
+             100000.  2600.0  5800.0  3200.0
