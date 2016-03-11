@@ -1,0 +1,17 @@
+mpirun -n 4 ../../salvus/salvus \
+    --duration 2.00 \
+    --time_step 1E-3 \
+    --exodus_file_name salvus_test_mesh.ex2 \
+    --exodus_model_file_name salvus_test_mesh.ex2 \
+    --mesh_type newmark \
+    --element_shape square \
+    --physics_system acoustic \
+    --polynomial_order 4 \
+    --source_type ricker \
+    --number_of_sources 1 \
+    --source_location_x 0.1 \
+    --source_location_z 0.1 \
+    --ricker_amplitude 1.0 \
+    --ricker_time_delay 0.1 \
+    --ricker_center_freq 10.0 \
+    --output_movie_file_name movie_acoustic.h5
